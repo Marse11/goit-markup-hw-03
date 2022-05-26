@@ -8,6 +8,7 @@
   --secondary-background-color: #ffffff;
   --accent-background-color: #2f303a;
   --secondary-accent-background-color: #f5f4fa;
+  --header-border-color: #ececec;
 }
 
 body {
@@ -60,6 +61,7 @@ ul {
 
 .header {
   background-color: var(--secondary-background-color);
+  border-bottom: 1px solid var(--header-border-color);
 }
 
 .header .container {
