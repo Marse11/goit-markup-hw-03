@@ -74,7 +74,9 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-  padding: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-right: 93px;
 }
 
 .header-studio {
@@ -84,6 +86,9 @@ ul {
 .header-list {
   display: flex;
   align-items: center;
+  padding-left: 0;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-list .link {
@@ -102,9 +107,24 @@ ul {
   color: var(--accent-color);
 }
 
+.header-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .contacts {
   display: flex;
   align-items: center;
+  padding-left: 0;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.contacts-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.mail-tel {
+  margin-left: auto;
 }
 
 .contacts .link {
