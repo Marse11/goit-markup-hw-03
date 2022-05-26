@@ -17,6 +17,17 @@ body {
   font-size: 14px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -38,10 +49,22 @@ body {
   list-style: none;
 }
 
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 /*--------Header---------*/
 
 .header {
   background-color: var(--secondary-background-color);
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -51,10 +74,16 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+  padding: 25px;
 }
 
 .header-studio {
   color: var(--title-text-color);
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
 }
 
 .header-list .link {
@@ -71,6 +100,11 @@ body {
 
 .header-list .current {
   color: var(--accent-color);
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
 }
 
 .contacts .link {

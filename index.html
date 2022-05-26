@@ -10,33 +10,39 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <title>Вебстудия</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <nav class="header-nav">
+      <div class="container">
         <a href="./index.html" lang="en" class="logo link"
           >Web<span class="header-studio">Studio</span></a
         >
-        <ul class="header-list list">
-          <li class="header-item">
-            <a href="./index.html" class="header-link link current">Студия</a>
+        <nav class="header-nav">
+          <ul class="header-list list">
+            <li class="header-item">
+              <a href="./index.html" class="header-link link current">Студия</a>
+            </li>
+            <li class="header-item">
+              <a href="./portfolio.html" class="header-link link">Портфолио</a>
+            </li>
+            <li class="header-item"><a href="" class="header-link link">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="contacts list">
+          <li class="contacts-item">
+            <a href="mailto:info@devstudio.com" class="contacts-link link">info@devstudio.com</a>
           </li>
-          <li class="header-item">
-            <a href="./portfolio.html" class="header-link link">Портфолио</a>
+          <li class="contacts-item">
+            <a href="tel:+380961111111" class="contacts-link link">+38 096 111 11 11</a>
           </li>
-          <li class="header-item"><a href="" class="header-link link">Контакты</a></li>
         </ul>
-      </nav>
-      <ul class="contacts list">
-        <li class="contacts-item">
-          <a href="mailto:info@devstudio.com" class="contacts-link link">info@devstudio.com</a>
-        </li>
-        <li class="contacts-item">
-          <a href="tel:+380961111111" class="contacts-link link">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <section class="hero">
