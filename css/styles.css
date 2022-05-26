@@ -24,9 +24,14 @@ h3,
 h4,
 h5,
 h6,
-p,
-ul {
+p {
   margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
 }
 
 .visually-hidden {
@@ -88,7 +93,6 @@ ul {
 .header-list {
   display: flex;
   align-items: center;
-  padding-left: 0;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -116,7 +120,6 @@ ul {
 .contacts {
   display: flex;
   align-items: center;
-  padding-left: 0;
   padding-top: 32px;
   padding-bottom: 32px;
 }
