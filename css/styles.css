@@ -189,12 +189,26 @@ ol {
 
 /*--------Benefits--------*/
 
+.benefits .container {
+  padding-top: 94px;
+}
+
+.benefits-list {
+  display: flex;
+  align-items: center;
+}
+
+.benefits-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .benefits-subtitle {
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
+  margin-bottom: 10px;
 }
 
 .benefits-list .text {
@@ -213,6 +227,7 @@ ol {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  padding-top: 94px;
 }
 
 /*--------Наша команда--------*/
