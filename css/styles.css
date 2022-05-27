@@ -34,6 +34,14 @@ ol {
   padding-left: 0;
 }
 
+.hero,
+.benefits,
+.services,
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
