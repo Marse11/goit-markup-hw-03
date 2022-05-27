@@ -219,6 +219,10 @@ ol {
 
 /*--------Чем мы занимаемся--------*/
 
+.services .container {
+  padding-bottom: 94px;
+}
+
 .services-title,
 .team-title {
   font-weight: 700;
@@ -228,16 +232,29 @@ ol {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   padding-top: 94px;
+  margin-bottom: 50px;
 }
 
+.services-list {
+  display: flex;
+}
+
+.services-item:not(:last-child) {
+  margin-right: 30px;
+}
 /*--------Наша команда--------*/
+
+.team .container {
+  padding-bottom: 94px;
+}
 
 .team {
   background-color: var(--secondary-accent-background-color);
 }
 
 .team-list {
-  background-color: var(--secondary-background-color);
+  background-color: var(--secondary-accent-background-color);
+  display: flex;
 }
 
 .team-list .team-subtitle {
@@ -247,6 +264,8 @@ ol {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .team-list .text {
@@ -255,8 +274,20 @@ ol {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  padding-bottom: 30px;
 }
 
+.team-item {
+  background-color: var(--secondary-background-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  border: 1px solid var(--primary-background-color);
+}
+
+.team-item:not(:last-child) {
+  margin-right: 30px;
+}
 /*------------Footer---------*/
 
 .footer {
