@@ -81,16 +81,13 @@ ol {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+}
+
+.headerlogo {
   padding-top: 25px;
   padding-bottom: 25px;
   margin-right: 93px;
 }
-
-/* .header .logo {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  margin-right: 93px;
-} */
 
 .header-studio {
   color: var(--title-text-color);
@@ -305,14 +302,26 @@ ol {
 .footer {
   background-color: var(--accent-background-color);
 }
+
 .footer-studio {
   color: var(--secondary-background-color);
 }
+
 .address {
   font-style: normal;
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.address-list {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.address-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .address-list .address-link {
