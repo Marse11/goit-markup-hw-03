@@ -34,14 +34,6 @@ ol {
   padding-left: 0;
 }
 
-.hero,
-.benefits,
-.services,
-.team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -156,6 +148,12 @@ ol {
 .hero {
   background-color: var(--accent-background-color);
 }
+
+.hero .container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -164,6 +162,7 @@ ol {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-background-color);
+  margin-bottom: 30px;
 }
 
 .hero-button {
@@ -175,6 +174,12 @@ ol {
   cursor: pointer;
   color: var(--secondary-background-color);
   background-color: var(--accent-color);
+  padding: 10px 32px;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  margin: 0 auto;
+  display: block;
 }
 
 .hero-button:hover,
