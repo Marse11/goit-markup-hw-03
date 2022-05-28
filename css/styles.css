@@ -9,6 +9,7 @@
   --accent-background-color: #2f303a;
   --secondary-accent-background-color: #f5f4fa;
   --header-border-color: #ececec;
+  --portfolio-border-color: #eeeeee;
 }
 
 body {
@@ -406,5 +407,17 @@ ol {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+  margin-top: 4px;
   color: var(--primary-text-color);
+}
+
+.photo-title {
+  padding: 20px 24px;
+  border-left: 1px solid var(--portfolio-border-color);
+  border-bottom: 1px solid var(--portfolio-border-color);
+  border-right: 1px solid var(--portfolio-border-color);
+}
+
+.photo {
+  display: block;
 }
