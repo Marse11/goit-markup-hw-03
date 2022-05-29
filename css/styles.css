@@ -97,14 +97,13 @@ ol {
 .header-list {
   display: flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header-list .link {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding: 32px 0;
   color: var(--title-text-color);
 }
 
@@ -124,8 +123,6 @@ ol {
 .contacts {
   display: flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .contacts-item:not(:last-child) {
@@ -140,6 +137,7 @@ ol {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding: 32px 0;
   color: var(--primary-text-color);
 }
 
@@ -150,12 +148,9 @@ ol {
 
 /*-------------Hero-------------*/
 .hero {
-  background-color: var(--accent-background-color);
-}
-
-.hero .container {
   padding-top: 200px;
   padding-bottom: 200px;
+  background-color: var(--accent-background-color);
 }
 
 .hero-title {
@@ -293,14 +288,12 @@ ol {
 .team-item:not(:last-child) {
   margin-right: 30px;
 }
+
 /*------------Footer---------*/
 
-.footer .container {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-.footer {
   background-color: var(--accent-background-color);
 }
 
