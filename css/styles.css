@@ -63,6 +63,14 @@ ol {
   padding-left: 15px;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.nopadding {
+  padding-bottom: 0;
+}
 /*--------Header---------*/
 
 .header {
@@ -188,9 +196,9 @@ ol {
 
 /*--------Benefits--------*/
 
-.benefits .container {
+/* .benefits .container {
   padding-top: 94px;
-}
+} */
 
 .benefits-list {
   display: flex;
@@ -219,9 +227,9 @@ ol {
 
 /*--------Чем мы занимаемся--------*/
 
-.services .container {
+/* .services .container {
   padding-bottom: 94px;
-}
+} */
 
 .services-title,
 .team-title {
@@ -231,7 +239,7 @@ ol {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  padding-top: 94px;
+  /* padding-top: 94px; */
   margin-bottom: 50px;
 }
 
@@ -244,9 +252,9 @@ ol {
 }
 /*--------Наша команда--------*/
 
-.team .container {
+/* .team .container {
   padding-bottom: 94px;
-}
+} */
 
 .team {
   background-color: var(--secondary-accent-background-color);
@@ -338,7 +346,7 @@ ol {
 .projects-list {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
+  /* padding-top: 94px; */
   margin-bottom: 50px;
 }
 
@@ -378,7 +386,7 @@ ol {
   flex-wrap: wrap;
   margin-left: -30px;
   margin-bottom: -30px;
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
   background-color: var(--secondary-background-color);
 }
 
